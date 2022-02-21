@@ -27,7 +27,7 @@ class AskSpec extends TestKit(ActorSystem("AskSpec"))
   "An authenticator" should {
     authenticatorTestSuite(Props[AuthManager])
   }
-  
+
   "A piped authenticator" should {
     authenticatorTestSuite(Props[PipedAuthManager])
   }
